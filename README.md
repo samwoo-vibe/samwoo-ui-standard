@@ -33,7 +33,9 @@ npm run build
 4. `src/components`와 `src/styles/tokens.css`를 우선 재사용합니다.
 5. 제품 고유 API와 도메인 로직만 추가합니다.
 
-디자인 원칙은 [docs/DESIGN_SYSTEM.md](docs/DESIGN_SYSTEM.md), AI 시작 프롬프트는 [prompts/build-samwoo-ui.md](prompts/build-samwoo-ui.md)를 참고하세요.
+디자인 원칙은 [docs/DESIGN_SYSTEM.md](docs/DESIGN_SYSTEM.md), 배포 캐시 계약은
+[docs/DEPLOYMENT_CACHE.md](docs/DEPLOYMENT_CACHE.md), AI 시작 프롬프트는
+[prompts/build-samwoo-ui.md](prompts/build-samwoo-ui.md)를 참고하세요.
 
 ## 저장소 역할
 

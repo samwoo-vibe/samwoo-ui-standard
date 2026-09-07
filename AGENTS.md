@@ -37,3 +37,5 @@
 - `npm run build`를 통과한다.
 - 데스크톱과 모바일에서 실제 화면을 확인한다.
 - 새 UI 패턴이 생기면 `docs/DESIGN_SYSTEM.md`와 갤러리를 함께 갱신한다.
+- 배포 시 `docs/DEPLOYMENT_CACHE.md`의 정책을 적용한다. HTML·API는 장기 캐시하지
+  않고 콘텐츠 해시가 있는 정적 자산만 `immutable`로 제공한다.

@@ -9,6 +9,7 @@ SAMWOO UI Standard를 준수해서 기능을 구현해 줘.
 - AGENTS.md
 - docs/DESIGN_SYSTEM.md
 - docs/UI_CHECKLIST.md
+- docs/DEPLOYMENT_CACHE.md
 - src/styles/tokens.css
 
 구현 규칙:
@@ -21,6 +22,7 @@ SAMWOO UI Standard를 준수해서 기능을 구현해 줘.
 - 데스크톱, 태블릿, 모바일을 모두 구현한다.
 - hover, focus-visible, disabled, loading, empty, error 상태를 포함한다.
 - 한국어 실제 콘텐츠로 레이아웃을 확인한다.
+- HTML·API는 장기 캐시하지 않고 콘텐츠 해시가 있는 정적 자산만 immutable로 제공한다.
 - 완료 후 타입 검사와 프로덕션 빌드를 실행한다.
 
 구현할 기능:
